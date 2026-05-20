@@ -1,0 +1,118 @@
+body {
+    overflow-y: scroll;
+    margin: 0 auto;
+    background-color: #9da9a0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin: 10px;
+    padding: 20px;
+    background-color: #edede9;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.calcolatrice {
+    height: 660px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #edede9;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calc {
+    width: 35%;
+    height: 100%;
+    margin: 10px;
+    background-color: #b26e63;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+
+}
+
+.cron {
+    width: 65%;
+    height: 100%;
+    margin: 10px;
+    background-color: #b26e63;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+}
+
+.display {
+    width: 95%;
+    height: 110px;
+    margin: 10px;
+    background-color: #001219;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+    text-align: end;
+}
+
+.buttons {
+    width: 95%;
+    height: 90px;
+    margin: 10px;
+    background-color: #edede9;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+    text-align: end;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 20%;
+    height: 80%;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #9da9a0;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #283618;
+    color: #edede9;
+}
+
+button:active {
+    background-color: #283618;
+    color: #edede9;
+    transform: translateY(2px);
+}
+
+h2 {
+    margin: 10px;
+}
+
+
+footer {
+    margin: 10px;
+    padding: 20px;
+    background-color: #edede9;
+    border-radius: 10px;
+    border: 2px solid #654c4f;
+    text-align: start;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
